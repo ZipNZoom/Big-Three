@@ -1,0 +1,93 @@
+html{
+    background-color: black;
+    color: rgb(87, 170, 87);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    display: flex;
+    border: 1px solid white;
+   justify-content: space-between;
+}
+.logo-img{
+    border-radius: 100px;
+    border: 15px solid white; 
+    margin: 0.5em;
+    background-color: white;
+}
+
+.nav-list li{
+    display: inline;
+    text-decoration: underline;
+    margin-right: 1em;
+    justify-self: end;
+}
+
+.mission-container{
+    background-image: url(./resources/decoded-background-img.jpg);
+    height: 10em;
+    text-align: center;
+    color: grey;
+    align-content: center;
+}
+
+.item h1{
+    position: relative;
+    right: 2em;
+    text-align: center;
+    
+    
+}
+.item-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./resources/decoded-background-img.jpg);
+    flex-wrap: wrap;
+}
+
+.item-text{
+    text-align: center;
+    background-color: blue;
+    border-radius: 50px;
+    border: 1px solid blue;
+    margin-top: 0.5em;
+}
+
+.crew h1{
+    position: relative;
+    right: 2em;
+    text-align: center;
+}
+
+.crew-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./resources/decoded-background-img.jpg);
+    flex-wrap: wrap;
+    flex-grow: 4;
+    flex-shrink: 1;
+    
+}
+.crew-feature{
+  text-align: center;
+}
+.crew-text{
+    text-align: center;
+    background-color: blue;
+    border-radius: 50px;
+    border: 1px solid blue;
+    margin-top: 0.5em;
+    
+}
+
+.footer-container{
+    margin-top: 4em;
+    border: 1px solid white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
